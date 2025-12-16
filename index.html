@@ -73,7 +73,10 @@
     "d3": "https://esm.sh/d3@^7.9.0",
     "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
     "express": "https://esm.sh/express@^5.2.1",
-    "cors": "https://esm.sh/cors@^2.8.5"
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "dotenv/": "https://esm.sh/dotenv@^17.2.3/",
+    "path": "https://esm.sh/path@^0.12.7",
+    "url": "https://esm.sh/url@^0.11.4"
   }
 }
 </script>
@@ -81,6 +84,7 @@
 </head>
   <body>
     <div id="root" class="scanlines w-full h-full"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <!-- Point to the index.tsx file. Requires a build step (like Vite) to run in browser -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>

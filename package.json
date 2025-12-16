@@ -15,7 +15,10 @@
     "d3": "^7.9.0",
     "@google/genai": "^1.33.0",
     "express": "^5.2.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
