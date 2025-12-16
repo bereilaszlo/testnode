@@ -3,7 +3,7 @@ import cors from 'cors';
 import { GoogleGenAI, Type } from "@google/genai";
 
 const app = express();
-const port = 3001;
+const port = 8080;
 
 // Enable CORS so the frontend (usually on port 3000/5173) can call this server
 app.use(cors());
