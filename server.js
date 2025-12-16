@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 // Use process.env.PORT for Digital Ocean, fallback to 3001
-const port = process.env.PORT || 3001; 
+const port = process.env.PORT || 3000; 
 
 // Enable CORS for all origins
 app.use(cors());
