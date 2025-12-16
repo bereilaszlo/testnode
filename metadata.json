@@ -1,0 +1,5 @@
+{
+  "name": "GameAtlas",
+  "description": "An interactive 3D globe visualization powered by Gemini to discover where famous video games were developed.",
+  "requestFramePermissions": []
+}
