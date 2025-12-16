@@ -5,7 +5,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 const generateId = () => Math.random().toString(36).substr(2, 9);
 
 // Points to our local backend server
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'http://localhost:3000/api';
 
 // --- FALLBACK CONFIGURATION ---
 // If the backend is unreachable, we fallback to client-side calls.
